@@ -14,6 +14,9 @@
 		84EFF2061FDD14FB007E1FB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84EFF2041FDD14FB007E1FB1 /* LaunchScreen.storyboard */; };
 		84EFF20E1FDD1A6E007E1FB1 /* ic_keyboard_arrow_left_white_48pt.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EFF20D1FDD1A6E007E1FB1 /* ic_keyboard_arrow_left_white_48pt.png */; };
 		84EFF2101FDD1A81007E1FB1 /* ic_keyboard_arrow_right_white_48pt.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EFF20F1FDD1A81007E1FB1 /* ic_keyboard_arrow_right_white_48pt.png */; };
+		84EFF2121FDD2293007E1FB1 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EFF2111FDD2293007E1FB1 /* SecondViewController.swift */; };
+		84EFF2161FDD2709007E1FB1 /* CalculateNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EFF2151FDD2709007E1FB1 /* CalculateNumber.swift */; };
+		84EFF2181FDD2E59007E1FB1 /* CalculateString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EFF2171FDD2E59007E1FB1 /* CalculateString.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		84EFF2071FDD14FB007E1FB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84EFF20D1FDD1A6E007E1FB1 /* ic_keyboard_arrow_left_white_48pt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_keyboard_arrow_left_white_48pt.png; sourceTree = "<group>"; };
 		84EFF20F1FDD1A81007E1FB1 /* ic_keyboard_arrow_right_white_48pt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_keyboard_arrow_right_white_48pt.png; sourceTree = "<group>"; };
+		84EFF2111FDD2293007E1FB1 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		84EFF2151FDD2709007E1FB1 /* CalculateNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateNumber.swift; sourceTree = "<group>"; };
+		84EFF2171FDD2E59007E1FB1 /* CalculateString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateString.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +64,17 @@
 		84EFF1FA1FDD14FB007E1FB1 /* Funny Number */ = {
 			isa = PBXGroup;
 			children = (
+				84EFF2151FDD2709007E1FB1 /* CalculateNumber.swift */,
 				84EFF1FB1FDD14FB007E1FB1 /* AppDelegate.swift */,
 				84EFF1FD1FDD14FB007E1FB1 /* ViewController.swift */,
 				84EFF1FF1FDD14FB007E1FB1 /* Main.storyboard */,
+				84EFF2111FDD2293007E1FB1 /* SecondViewController.swift */,
 				84EFF2021FDD14FB007E1FB1 /* Assets.xcassets */,
 				84EFF20F1FDD1A81007E1FB1 /* ic_keyboard_arrow_right_white_48pt.png */,
 				84EFF20D1FDD1A6E007E1FB1 /* ic_keyboard_arrow_left_white_48pt.png */,
 				84EFF2041FDD14FB007E1FB1 /* LaunchScreen.storyboard */,
 				84EFF2071FDD14FB007E1FB1 /* Info.plist */,
+				84EFF2171FDD2E59007E1FB1 /* CalculateString.swift */,
 			);
 			path = "Funny Number";
 			sourceTree = "<group>";
@@ -144,8 +153,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84EFF2121FDD2293007E1FB1 /* SecondViewController.swift in Sources */,
 				84EFF1FE1FDD14FB007E1FB1 /* ViewController.swift in Sources */,
 				84EFF1FC1FDD14FB007E1FB1 /* AppDelegate.swift in Sources */,
+				84EFF2161FDD2709007E1FB1 /* CalculateNumber.swift in Sources */,
+				84EFF2181FDD2E59007E1FB1 /* CalculateString.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
